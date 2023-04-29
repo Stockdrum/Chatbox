@@ -16,8 +16,11 @@ app.use(express.static(path.join(__dirname, "public")))
 
 // Run when the client connects to app
 io.on("connection", (socket) => {
-	console.log("New Connection to client ....")
+	console.log("New Connection ....")
+
+	socket.emit("message", "Welcome to the ChatBox cool people!!!")
 })
+
 const PORT = 3000 || process.env.PORT
 
 server.listen(PORT, () => {

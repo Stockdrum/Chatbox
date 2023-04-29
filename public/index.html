@@ -10,6 +10,7 @@
 		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer"/>
 		<title>ChatBox</title>
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 
 	<body>
@@ -40,11 +41,12 @@
 							<option value="Rust">Rust</option>
 						</select>
 					</div>
-					<button type="submit" class="btn">Join Chat</button>
+					<button type="submit" class="btn">Join the chat</button>
 				</form>
 			</main>
 		</div>
 
-		<script src="script.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

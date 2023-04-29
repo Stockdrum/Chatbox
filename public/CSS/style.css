@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
-	--error-color: #d9534f;
+	--dark-color-a: #424549;
+	--dark-color-b: #282b30;
+	--light-color: #7289da;
+	--success-color: #bde0fe;
+	--error-color: #e63946;
 }
 
 * {
@@ -31,10 +31,10 @@ a {
 
 .btn {
 	cursor: pointer;
-	padding: 5px 15px;
-	background: var(--light-color);
+	padding: 10px 15px;
+	background-color: #50f456;
 	color: var(--dark-color-a);
-	border: 0;
+	border-radius: 4px;
 	font-size: 17px;
 }
 
@@ -134,8 +134,8 @@ a {
 }
 
 .join-header {
-	text-align: center;
-	padding: 20px;
+	text-align: left;
+	padding: 12px;
 	background: var(--dark-color-a);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
