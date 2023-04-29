@@ -1,0 +1,31 @@
+{
+	"name": "chatbox",
+	"version": "1.0.0",
+	"description": "A Realtime chatbox with multiple rooms",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"dev": "nodemon server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/Stockdrum/Chatbox.git"
+	},
+	"keywords": [
+		"node.js"
+	],
+	"author": "Stockdrum",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Stockdrum/Chatbox/issues"
+	},
+	"homepage": "https://github.com/Stockdrum/Chatbox#readme",
+	"dependencies": {
+		"express": "^4.18.2",
+		"moment": "^2.29.4",
+		"socket.io": "^4.6.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	}
+}
